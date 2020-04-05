@@ -1,0 +1,25 @@
+{
+  "mockData": [
+    {
+      "id": 1,
+      "name": "Ivan",
+      "surname": "Petrov",
+      "age": "30",
+      "gender": "M",
+    },
+    {
+      "id": 1,
+      "name": "Blagoy",
+      "surname": "Dimitrov",
+      "age": "20",
+      "gender": "M",
+    },
+    {
+      "id": 1,
+      "name": "Anna",
+      "surname": "Sidorova",
+      "age": "16",
+      "gender": "F",
+    }
+  ]
+}

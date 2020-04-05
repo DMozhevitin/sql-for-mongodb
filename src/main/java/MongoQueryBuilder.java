@@ -33,7 +33,7 @@ public class MongoQueryBuilder {
     public String buildFindPredicate(List<ComparisonOperation> operations) {
         return "{" + operations.stream()
                 .map(this::buildComparisonOperation)
-                .collect(Collectors.joining(COMMO)) + "}";
+                .collect(Collectors.joining(COMMO)) + "} ";
     }
 
     public String buildComparisonOperation(ComparisonOperation op) {
