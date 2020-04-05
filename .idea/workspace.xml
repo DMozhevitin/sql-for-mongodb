@@ -3,21 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cddec443-3c54-4db9-b949-27913630a003" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Cli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cli.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MongoQueryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MongoQueryBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cli.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MongoQueryBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MongoQueryBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sql2MongoTranslator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sql2MongoTranslator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exception/SqlParsingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exception/SqlParsingException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/expression/ComparisonOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/expression/ComparisonOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/expression/SelectStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/expression/SelectStatement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/expression/UnaryOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/expression/UnaryOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/expression/WhereClause.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/expression/WhereClause.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/parser/SqlParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/parser/SqlParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test_Sql2MongoTranslator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test_Sql2MongoTranslator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/parser/Test_SqlParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/parser/Test_SqlParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DbEmulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DbEmulator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,15 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Sql2MongoTranslator.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,11 +46,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DbEmulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-973">
-              <caret line="40" column="40" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="40" />
+            <state relative-caret-position="-289">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Cli.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,19 +102,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MongoStr2DBObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="34" selection-start-column="2" selection-end-line="55" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/data.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -152,12 +133,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/CLI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Cli.java" />
         <option value="$PROJECT_DIR$/src/main/java/MongoStr2DBObject.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/MongoQueryBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DbEmulator.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data.json" />
+        <option value="$PROJECT_DIR$/src/main/java/Cli.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DbEmulator.java" />
       </list>
     </option>
   </component>
@@ -256,7 +237,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586120320718" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586121471881" />
     <property name="last_opened_file_path" value="C:/omnics/orion/frontend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -278,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DbEmulator">
+  <component name="RunManager" selected="JUnit.All in sql-for-mongodb">
     <configuration name="Cli" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cli" />
       <module name="sql-for-mongodb" />
@@ -335,10 +316,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in sql-for-mongodb" />
         <item itemvalue="Application.DbEmulator" />
         <item itemvalue="Application.Cli" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.All in sql-for-mongodb" />
       </list>
     </recent_temporary>
   </component>
@@ -361,7 +342,7 @@
       <updated>1586041876869</updated>
       <workItem from="1586041880033" duration="1445000" />
       <workItem from="1586082582067" duration="36000" />
-      <workItem from="1586100645405" duration="12729000" />
+      <workItem from="1586100645405" duration="13907000" />
     </task>
     <servers />
   </component>
@@ -371,7 +352,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14210000" />
+    <option name="totallyTimeSpent" value="15388000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,12 +376,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41080198" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
@@ -557,20 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Cli.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="11" column="86" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MongoStr2DBObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="34" selection-start-column="2" selection-end-line="55" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -638,20 +605,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DbEmulator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-973">
-          <caret line="40" column="40" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="40" />
+        <state relative-caret-position="209">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MongoStr2DBObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="34" selection-start-column="2" selection-end-line="55" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Cli.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DbEmulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="-289">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

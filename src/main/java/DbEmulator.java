@@ -21,7 +21,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
-import com.mongodb.util.JSON;
 
 public class DbEmulator {
     private static final String DATA_PATH = "resources" + File.separator + "data.json";

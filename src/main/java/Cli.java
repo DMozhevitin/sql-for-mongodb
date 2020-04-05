@@ -16,8 +16,6 @@ public class Cli {
         String line;
         while (!"q".equals(line = reader.readLine()) && line != null) {
             try {
-                String mongo = translator.select2Find(line);
-
                 System.out.println(translator.select2Find(line));
 
             } catch (SqlParsingException e) {
