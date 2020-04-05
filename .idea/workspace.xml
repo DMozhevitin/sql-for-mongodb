@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cddec443-3c54-4db9-b949-27913630a003" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cli.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DbEmulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DbEmulator.java" afterDir="false" />
-    </list>
+    <list default="true" id="cddec443-3c54-4db9-b949-27913630a003" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,11 +45,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DbEmulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-289">
+            <state relative-caret-position="-1486">
               <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Test_Sql2MongoTranslator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="42" column="82" selection-start-line="42" selection-start-column="82" selection-end-line="42" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -139,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/data.json" />
         <option value="$PROJECT_DIR$/src/main/java/Cli.java" />
         <option value="$PROJECT_DIR$/src/main/java/DbEmulator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test_Sql2MongoTranslator.java" />
       </list>
     </option>
   </component>
@@ -237,7 +243,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586121471881" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586121542790" />
     <property name="last_opened_file_path" value="C:/omnics/orion/frontend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -259,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in sql-for-mongodb">
+  <component name="RunManager" selected="Application.DbEmulator">
     <configuration name="Cli" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cli" />
       <module name="sql-for-mongodb" />
@@ -316,8 +322,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in sql-for-mongodb" />
         <item itemvalue="Application.DbEmulator" />
+        <item itemvalue="JUnit.All in sql-for-mongodb" />
         <item itemvalue="Application.Cli" />
         <item itemvalue="Application.Test" />
       </list>
@@ -342,7 +348,7 @@
       <updated>1586041876869</updated>
       <workItem from="1586041880033" duration="1445000" />
       <workItem from="1586082582067" duration="36000" />
-      <workItem from="1586100645405" duration="13907000" />
+      <workItem from="1586100645405" duration="14142000" />
     </task>
     <servers />
   </component>
@@ -350,9 +356,15 @@
     <history-entry file="All_in_sql-for-mongodb - 2020.04.05 at 02h 13m 03s.xml">
       <configuration name="All in sql-for-mongodb" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_sql-for-mongodb - 2020.04.06 at 00h 17m 16s.xml">
+      <configuration name="All in sql-for-mongodb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_sql-for-mongodb - 2020.04.06 at 00h 17m 54s.xml">
+      <configuration name="All in sql-for-mongodb" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15388000" />
+    <option name="totallyTimeSpent" value="15623000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -629,9 +641,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test_Sql2MongoTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="42" column="82" selection-start-line="42" selection-start-column="82" selection-end-line="42" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DbEmulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
+        <state relative-caret-position="-1486">
           <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
