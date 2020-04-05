@@ -10,3 +10,5 @@
 ### Example: 
 `SELECT id, name FROM user WHERE age > 30 AND name <> 'John' LIMIT 10 OFFSET 5` will be translated into 
 `db.user.find({age: {$gt: 30}, name: {$ne: 'John'}}, {id: 1, name: 1}).limit(10).skip(5)`
+
+In order to test the translator, run **Cli.java** and enter your queries.
