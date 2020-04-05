@@ -13,6 +13,4 @@
 
 In order to test the translator, run **Cli.java** and enter your queries.
 
-Also there is a dummy Mongo collection placed in **data.json**. Ensure that you have running **MongoDB** database on port **27017**, run **DbEmulator.java** and try 2 make some **SQL** queries to **MongoDB** collection.
-
-`//projections and collection name are temporary not supported in emulator`
+Also there is a dummy Mongo collection placed in **data.json**. Ensure that you have running **MongoDB** database on port **27017**, run **DbEmulator.java** and try 2 make some **SQL** queries to **MongoDB** collection
